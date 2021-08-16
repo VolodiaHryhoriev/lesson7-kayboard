@@ -367,7 +367,7 @@ document.addEventListener('keydown', (event) => {
             break;
         case 17:
             document.querySelector('div.lCtrl').style.backgroundColor = lPinky;
-            // document.querySelector('div.rCtrl').style.backgroundColor = rPinky;
+            document.querySelector('div.rCtrl').style.backgroundColor = normRPinky;
             break;
         case 91:
             document.querySelector('div.win').style.backgroundColor = lPinky;
