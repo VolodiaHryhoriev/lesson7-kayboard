@@ -331,7 +331,7 @@ document.addEventListener('keydown', (event) => {
             break;
         case 16:
             document.querySelector('div.lShift').style.backgroundColor = lPinky;
-            document.querySelector('div.rShift').style.backgroundColor = rPinky;
+            document.querySelector('div.rShift').style.backgroundColor = normRPinky;
             allShiftedSymbols();
             isCapslockOn ? allAlphaLower() : allAlphaUpper();
             break;
@@ -367,7 +367,7 @@ document.addEventListener('keydown', (event) => {
             break;
         case 17:
             document.querySelector('div.lCtrl').style.backgroundColor = lPinky;
-            document.querySelector('div.rCtrl').style.backgroundColor = rPinky;
+            // document.querySelector('div.rCtrl').style.backgroundColor = rPinky;
             break;
         case 91:
             document.querySelector('div.win').style.backgroundColor = lPinky;
@@ -375,7 +375,7 @@ document.addEventListener('keydown', (event) => {
         case 18:
             event.preventDefault();
             document.querySelector('div.lAlt').style.backgroundColor = spaceAlt;
-            document.querySelector('div.rAlt').style.backgroundColor = spaceAlt;
+            document.querySelector('div.rAlt').style.backgroundColor = normSpaceAlt;
             break;
         case 32:
             document.querySelector('div.space').style.backgroundColor = spaceAlt;
